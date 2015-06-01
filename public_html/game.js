@@ -5,7 +5,7 @@ function resetGame () {
     hangmanState = 0;
     drawWord(gameShownAnswer);
 
-}/* When you win you get the word and a explaination of what the word is and how it is used in the language*/
+}/* when you win you get the word and a explaination of what the word is and how it is used in the language*/
 $(document).ready(resetGame);
 function win () {
 if (gameShownAnswer == 'boolean') {
