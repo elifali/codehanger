@@ -40,7 +40,7 @@ function drawWord( answer ) {
 	    $('<span/>').addClass('shown-letter').html('&nbsp;'));
     }
 }
-/*function to update the word*/
+/* the function updates the word*/
 function updateWord( answer ) {
     $k = $('.shown-letter:first');
     for ( i in answer ) {
